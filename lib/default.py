@@ -125,8 +125,8 @@ def run_system_check():
 def main_menu():
     items = [
         ("V-Live DE", {"mode": "livetv"}),
-        ("V-Welt TV", {"mode": "welt2"}),
-        ("V-System-Check", {"mode": "system_check"}),
+        #("V-Welt TV", {"mode": "welt2"}),
+        #("V-System-Check", {"mode": "system_check"}),
         #("Länder wählen", {"mode": "choose_countries"}),
         ("V-Filme", {"mode": "movies"}),
         ("V-Serien", {"mode": "series"}),
@@ -214,3 +214,4 @@ if __name__ == "__main__":
     args = sys.argv[2][1:]
     params = dict(urllib.parse.parse_qsl(args))
     route(params)
+
