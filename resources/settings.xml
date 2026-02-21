@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+  <category label="30010">
+    <setting id="stream_select" type="enum" label="30012" values="Manuell|Automatisch" default="1" />
+    <setting id="auto_try_next_stream" type="bool" label="30013" default="true" />
+    <setting id="preferred_quality" type="enum" label="30014" values="360p|480p|720p|1080p|Höchste verfügbar" default="3" />
+    <setting id="use_inputstream" type="bool" label="30016" default="true" />
+    <setting id="use_inputstream_adaptive" type="bool" label="InputStream Adaptive aktivieren" default="true" />
+    <setting id="use_inputstream_ffmpegdirect" type="bool" label="InputStream FFmpeg Direct aktivieren" default="false" />
+  </category>
+
+  <category label="30020">
+    <setting id="show_categories" type="bool" label="30022" default="true" />
+    <setting id="show_sky" type="bool" label="30023" default="true" />
+    <setting id="show_sport" type="bool" label="30024" default="true" />
+    <setting id="show_news" type="bool" label="30025" default="true" />
+    <setting id="show_kids" type="bool" label="30026" default="true" />
+    <setting id="livetv_cache" type="slider" label="30028" option="int" range="10,1,180" default="60" />
+  </category>
+
+  <category label="30030">
+    <setting id="content_language" type="enum" label="30032" values="Deutsch|Englisch|Alle" default="0" />
+    <setting id="content_cache" type="slider" label="30033" option="int" range="10,1,180" default="60" />
+    <setting id="only_working_content" type="bool" label="Nur funktionierende Filme/Serien anzeigen" default="true" />
+    <setting id="adult_content" type="bool" label="30035" default="false" />
+  </category>
+
+  <category label="30040">
+    <setting id="debug_log" type="bool" label="30042" default="false" />
+    <setting id="request_timeout" type="slider" label="30043" option="int" range="3,1,30" default="10" />
+    <setting id="allow_sunshine" type="bool" label="Sunshine-Fallback erlauben" default="true" />
+    <setting id="country_groups" type="text" label="30044" default="[]" visible="false" />
+  </category>
+</settings>

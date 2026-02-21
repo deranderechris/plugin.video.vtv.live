@@ -1,0 +1,132 @@
+# Kodi Media Center language file
+# Addon Name: vtv.live
+# Addon Provider: vmod
+msgid ""
+msgstr ""
+"Project-Id-Version: vtv.live\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-17 12:00+0000\n"
+"PO-Revision-Date: 2026-02-17 12:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# PLAYBACK
+msgctxt "#30010"
+msgid "Playback"
+msgstr "Wiedergabe"
+
+msgctxt "#30011"
+msgid "Stream Settings"
+msgstr "Stream Einstellungen"
+
+msgctxt "#30012"
+msgid "Stream Selection"
+msgstr "Stream Auswahl"
+
+msgctxt "#30013"
+msgid "Auto try next similar stream"
+msgstr "Automatisch nächsten ähnlichen Stream versuchen"
+
+msgctxt "#30014"
+msgid "Preferred Quality"
+msgstr "Bevorzugte Qualität"
+
+msgctxt "#30015"
+msgid "Player Settings"
+msgstr "Player Einstellungen"
+
+msgctxt "#30016"
+msgid "Use InputStream Adaptive for HLS"
+msgstr "InputStream Adaptive für HLS verwenden"
+
+# LIVE TV
+msgctxt "#30020"
+msgid "Live TV"
+msgstr "Live TV"
+
+msgctxt "#30021"
+msgid "Category Filter"
+msgstr "Kategorie-Filter"
+
+msgctxt "#30022"
+msgid "Show category selection"
+msgstr "Kategorienauswahl anzeigen"
+
+msgctxt "#30023"
+msgid "Show Sky channels"
+msgstr "Sky-Sender anzeigen"
+
+msgctxt "#30024"
+msgid "Show Sport channels"
+msgstr "Sport-Sender anzeigen"
+
+msgctxt "#30025"
+msgid "Show News channels"
+msgstr "News-Sender anzeigen"
+
+msgctxt "#30026"
+msgid "Show Kids channels"
+msgstr "Kinder-Sender anzeigen"
+
+msgctxt "#30027"
+msgid "Cache Settings"
+msgstr "Cache Einstellungen"
+
+msgctxt "#30028"
+msgid "Live TV cache duration (minutes)"
+msgstr "Live TV Cache-Dauer (Minuten)"
+
+# MOVIES & SERIES
+msgctxt "#30030"
+msgid "Movies & Series"
+msgstr "Filme & Serien"
+
+msgctxt "#30031"
+msgid "Content Settings"
+msgstr "Inhalts-Einstellungen"
+
+msgctxt "#30032"
+msgid "Language"
+msgstr "Sprache"
+
+msgctxt "#30033"
+msgid "Content cache duration (minutes)"
+msgstr "Inhalts-Cache-Dauer (Minuten)"
+
+msgctxt "#30034"
+msgid "Adult Content"
+msgstr "Erwachseneninhalte"
+
+msgctxt "#30035"
+msgid "Show adult content"
+msgstr "Erwachseneninhalte anzeigen"
+
+# ADVANCED
+msgctxt "#30040"
+msgid "Advanced"
+msgstr "Erweitert"
+
+msgctxt "#30041"
+msgid "Debug Settings"
+msgstr "Debug Einstellungen"
+
+msgctxt "#30042"
+msgid "Enable debug logging"
+msgstr "Debug-Logging aktivieren"
+
+msgctxt "#30043"
+msgid "Request timeout (seconds)"
+msgstr "Request Timeout (Sekunden)"
+
+msgctxt "#30044"
+msgid "Maintenance"
+msgstr "Wartung"
+
+msgctxt "#30045"
+msgid "Clear cache"
+msgstr "Cache leeren"
