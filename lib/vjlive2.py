@@ -109,11 +109,13 @@ def load_channels_from_index(chans):
 
 
 def load_channels_from_catalog(chans):
+    import utils
     h = {
-        "user-agent": "okhttp/4.11.0",
+        "accept-encoding": "gzip",
+        "user-agent": "MediaHubMX/2",
         "accept": "application/json",
         "content-type": "application/json; charset=utf-8",
-        "accept-encoding": "gzip"
+        "mediahubmx-signature": utils.getAuthSignature()
     }
 
     selected_groups = get_selected_groups()
@@ -168,11 +170,13 @@ def load_channels():
 
 
 def resolve_link(link):
+    import utils
     h = {
+        "accept-encoding": "gzip",
         "user-agent": "MediaHubMX/2",
         "accept": "application/json",
         "content-type": "application/json; charset=utf-8",
-        "accept-encoding": "gzip"
+        "mediahubmx-signature": utils.getAuthSignature()
     }
 
     d = {
