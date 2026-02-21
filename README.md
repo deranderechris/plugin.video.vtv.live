@@ -85,8 +85,8 @@ In `addon.xml` definiert:
 
 Diese Kombination ist für die meisten Fire-TV-/Android-TV-Boxen stabil:
 
-- **Stream-Auswahl**: `Automatisch`
-- **Auto nächster Stream**: `AN`
+- **Stream-Auswahl**: `manuell`
+- **Auto nächster Stream**: `aus`
 - **InputStream nutzen**: `AN`
 - **InputStream Adaptive aktivieren**: `AN`
 - **InputStream FFmpeg Direct aktivieren**: `AUS`
