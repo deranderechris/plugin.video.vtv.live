@@ -9,7 +9,7 @@ Diese Version ist für Kodi mit Python 3 ausgelegt und wurde für stabileres Ver
 ## Funktionen
 
 - **Live TV** (Gruppen/Kanäle)
-- **Welt TV** über `vjlive2` (Alle Sender + A-Z)
+#- **Welt TV** über `vjlive2` (Alle Sender + A-Z) ausgeblendet in default.py funktioniert nur im Emulator
 - **Filme / Serien** (VAVOO-Menüs)
 - **Länderauswahl** im Add-on
 - **Einstellungen** in klassischem Kodi-Stil
